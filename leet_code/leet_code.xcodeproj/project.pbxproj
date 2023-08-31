@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D000B00E2A8B96CF00794A47 /* Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000B00D2A8B96CF00794A47 /* Palindrome_Number.swift */; };
+		D000B0102A8B9AB800794A47 /* Monotonic_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000B00F2A8B9AB800794A47 /* Monotonic_Problem.swift */; };
 		D0496BFF2A88E2B000F88F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0496BFE2A88E2B000F88F20 /* AppDelegate.swift */; };
 		D0496C012A88E2B000F88F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0496C002A88E2B000F88F20 /* SceneDelegate.swift */; };
 		D0496C032A88E2B000F88F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0496C022A88E2B000F88F20 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		D000B00D2A8B96CF00794A47 /* Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome_Number.swift; sourceTree = "<group>"; };
+		D000B00F2A8B9AB800794A47 /* Monotonic_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monotonic_Problem.swift; sourceTree = "<group>"; };
 		D0496BFB2A88E2B000F88F20 /* leet_code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leet_code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0496BFE2A88E2B000F88F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0496C002A88E2B000F88F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				D0496C132A88E2D600F88F20 /* TwoSumArray.swift */,
 				D000B00D2A8B96CF00794A47 /* Palindrome_Number.swift */,
+				D000B00F2A8B9AB800794A47 /* Monotonic_Problem.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				D0496BFF2A88E2B000F88F20 /* AppDelegate.swift in Sources */,
 				D000B00E2A8B96CF00794A47 /* Palindrome_Number.swift in Sources */,
 				D0496C142A88E2D600F88F20 /* TwoSumArray.swift in Sources */,
+				D000B0102A8B9AB800794A47 /* Monotonic_Problem.swift in Sources */,
 				D0496C012A88E2B000F88F20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,9 +15,14 @@ class ViewController: UIViewController {
       // let index = TwoSumArray.twoSum([3,4,9,6,4], target: 8)
        // let array = TwoSumArray.twoSumArray([2,7,11,15], target: 9)
        // print("array--->\(array)")
+        /*
         let obj = Palindrome()
-     let result =  obj.isPalindrome(235)
+        let result =  obj.isPalindrome(235)
         print(result)
+         */
+        let obj = Monotonic()
+        let result =   obj.isMonotonic([1,3,2])
+        
     }
 
 
