@@ -20,8 +20,14 @@ class ViewController: UIViewController {
         let result =  obj.isPalindrome(235)
         print(result)
          */
-        let obj = Monotonic()
-        let result =   obj.isMonotonic([1,3,2])
+       // let obj = Monotonic()
+       // let result =   obj.isMonotonic([1,3,2])
+        
+        /// Remove duplicate
+    let obj = RemoveDuplicate()
+        var nums = [0,0,1,1,1,2,2,3,3,4]
+       // obj.removeElement(&nums, 3)
+        obj.removeDuplicates(&nums)
         
     }
 

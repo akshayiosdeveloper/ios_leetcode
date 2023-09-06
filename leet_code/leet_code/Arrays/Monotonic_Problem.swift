@@ -45,5 +45,4 @@ class Monotonic {
         }
         return true
     }
-    
 }
