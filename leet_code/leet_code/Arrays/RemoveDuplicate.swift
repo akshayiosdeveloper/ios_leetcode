@@ -15,7 +15,7 @@ class RemoveDuplicate {
         return count
     }
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        // soltion 1
+        // soltion 1  ---> fastest solution
         nums = Array(Set(nums)).sorted()
         print(nums)
         return nums.count
