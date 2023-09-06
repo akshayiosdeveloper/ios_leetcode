@@ -9,9 +9,7 @@ import Foundation
 class RemoveDuplicate {
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
         let result = nums.filter { $0 != val }
-        print("result-->\(result)")
         let count = result.count
-        print("count-->\(result.count)")
         return count
     }
     func removeDuplicates(_ nums: inout [Int]) -> Int {
